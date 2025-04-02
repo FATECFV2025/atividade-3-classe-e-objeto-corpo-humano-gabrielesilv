@@ -33,8 +33,18 @@
 ### Após essa implementação responda:
 
 - Na classe Corpo_Humano inclua a linha c1.massa = "2"; logo depois de instanciar o objeto c1. Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+Resposta: Deu erro porque a variável massa é do tipo float e estou tentando atribuir um tipo String, o que não é permitido pois a linguagem é de tipagem forte.
+
+
 - Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+Resposta: Não gerou erro, mas permitiu com que ele seja acessado diretamente de qualquer parte do código, podendo alterar seu valor diretamente sem passar pelos métodos get e set, o que não é uma boa prática.
+
+
 - Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
+
+Resposta: Não permitiu acessar o método setVolume() fora da classe onde foi definido, ocorrendo um erro de código.
 
 
 <b>Colocar essa informação no Readme do Git ou Em comentários de código na classe main </b>
