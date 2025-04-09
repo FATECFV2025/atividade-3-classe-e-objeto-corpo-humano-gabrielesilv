@@ -39,7 +39,7 @@ Resposta: Deu erro porque a variável massa é do tipo float e estou tentando at
 
 - Na classe Corpo_Humano altere a linha private float Massa para public float Massa; Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
 
-Resposta: Não gerou erro, mas permitiu com que ele seja acessado diretamente de qualquer parte do código, podendo alterar seu valor diretamente sem passar pelos métodos get e set, o que não é uma boa prática.
+Resposta: Não gerou erro, mas permitiu com que ele seja acessado diretamente de qualquer parte do código, podendo alterar seu valor diretamente sem passar pelos métodos get e set, o que não é uma boa prática. Além disso, o cálculo da densidade não é feito pois não é chamado o cálculo
 
 
 - Na classe Corpo_Humano altere a linha public setVolume (float volume) para private setVolume (float volume).Qual foi a ocorrência? Qual a conclusão sobre o que aconteceu?
